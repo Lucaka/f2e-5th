@@ -3,10 +3,6 @@ import { RouterView } from 'vue-router'
 </script>
 
 <template>
-  <header>
-    <span class="text-7xl">{{ $t('hello') }}</span>
-  </header>
-
   <RouterView />
 </template>
 
