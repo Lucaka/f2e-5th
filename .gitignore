@@ -26,3 +26,6 @@ coverage
 *.njsproj
 *.sln
 *.sw?
+
+# unplugin-vue-components/vite
+/components.d.ts
