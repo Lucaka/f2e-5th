@@ -2,6 +2,9 @@
 @import '@/plugin/tailwind/index';
 @import '@/plugin/carousel/index';
 
+/* Components */
+@import './components';
+
 /* Base */
 @import './base';
 

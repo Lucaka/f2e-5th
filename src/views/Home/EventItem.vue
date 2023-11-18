@@ -20,7 +20,7 @@ withDefaults(
     <img class="mb-4" :src="item.img" alt="event" />
     <p class="text-xl mb-4 px-4">{{ item.title }}</p>
     <p class="px-4 mb-14">{{ item.content }}</p>
-    <a :href="item.link" class="text-white bg-primary py-2 px-10 mx-auto rounded-lg">
+    <a :href="item.link" class="btn">
       {{ $t('read-more') }}
     </a>
   </div>

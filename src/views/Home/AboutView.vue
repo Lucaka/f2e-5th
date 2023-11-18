@@ -3,7 +3,7 @@
     <div class="about-content">
       <h1 class="text-[2rem] mb-2 hidden lg:block">{{ $t('guan-yu-ying-yu') }}</h1>
       <blockquote cite="https://2023.thef2e.com/users/12061579704042550482">
-        <p class="about-info">
+        <p class="about-info section-rounded">
           {{ $t('chu-sheng-yu-abuot') }}
         </p>
       </blockquote>
@@ -40,7 +40,7 @@
 }
 
 .about-info {
-  @apply rounded-tr-[100px] rounded-bl-[50px] px-6 py-16;
+  @apply  px-6 py-16;
   @apply whitespace-pre bg-secondary text-2xl leading-[3rem];
   @apply text-warp;
 }

@@ -2,6 +2,7 @@
 import { computed } from 'vue'
 import AboutView from '@/views/Home/AboutView.vue'
 import LatestEventsView from '@/views/Home/LatestEvents.vue'
+import MerchView from '@/views/Home/MerchView.vue'
 
 import event1 from '@/assets/img/event-1.jpg'
 import event2 from '@/assets/img/event-2.jpg'
@@ -69,14 +70,23 @@ const policyIssues = computed(() => [
 
   <AboutView class="container mx-auto p-4" />
 
-  <div class="bg-secondary rounded-tr-[100px] rounded-bl-[50px] mt-40">
-    <div class="p-4 relative -top-36">
-      <div id="activity">
+  <div class="lg:bg-secondary section-rounded mt-40">
+    <div class="relative -top-36">
+      <div id="activity" class="title mb-10">
         <LatestEventsView :list="LatestEvents" :title="$t('lates-events')" />
       </div>
-      <div id="policy">
+      <div id="policy" class="title mb-10">
         <LatestEventsView :list="policyIssues" :title="$t('zheng-ce-yi-ti')" />
       </div>
     </div>
   </div>
+
+  <MerchView />
 </template>
+
+<style scoped>
+.title::before {
+  @apply block invisible h-[100px] -mt-[100px];
+  content: '';
+}
+</style>

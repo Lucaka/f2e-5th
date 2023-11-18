@@ -61,7 +61,9 @@ const menuTrigger = ref(false)
   <header class="sticky top-0 z-10">
     <nav class="navbar">
       <figure class="flex items-center gap-2 flex-shrink-0">
-        <img src="@/assets/img/logo.png" alt="logo" class="w-20" />
+        <a href="/">
+          <img src="@/assets/img/logo.png" alt="logo" class="w-20 cursor-pointer" />
+        </a>
         <figcaption>{{ $t('chen-ying-yu') }}</figcaption>
       </figure>
 
