@@ -16,6 +16,7 @@ export default defineConfig({
       include: [/\.vue$/, /\.vue\?vue/, /\.md$/],
     })
   ],
+  base: './',
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))

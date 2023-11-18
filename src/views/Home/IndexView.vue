@@ -3,6 +3,7 @@ import { computed } from 'vue'
 import AboutView from '@/views/Home/AboutView.vue'
 import LatestEventsView from '@/views/Home/LatestEvents.vue'
 import MerchView from '@/views/Home/MerchView.vue'
+import PublicServices from '@/views/Home/PublicServices.vue'
 
 import event1 from '@/assets/img/event-1.jpg'
 import event2 from '@/assets/img/event-2.jpg'
@@ -82,6 +83,8 @@ const policyIssues = computed(() => [
   </div>
 
   <MerchView />
+
+  <!-- <PublicServices /> -->
 </template>
 
 <style scoped>

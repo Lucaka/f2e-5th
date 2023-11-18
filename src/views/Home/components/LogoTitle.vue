@@ -20,7 +20,7 @@ withDefaults(
 
   <figure
     class="h-[80px] items-center justify-between py-3 px-4 flex lg:hidden"
-    :class="{ [background]: true }"
+    :class="background ? { [background]: true } : null"
   >
     <figcaption class="text-primary text-[2rem]">
       {{ title }}
