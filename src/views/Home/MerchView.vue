@@ -44,7 +44,7 @@ const productItems = computed(() => [product2, product1, product3])
           </p>
 
           <div>
-            <a href="" class="btn whitespace-nowrap w-auto leading-[2] inline-block">
+            <a class="btn whitespace-nowrap w-auto leading-[2] inline-block" href="https://shopee.tw/chenyingyu.tw" target="_blank">
               {{ $t('qian-wang-xia-pi-mai-chang') }}
             </a>
           </div>

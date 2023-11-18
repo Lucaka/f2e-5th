@@ -8,9 +8,17 @@
       <div class="info">
         <p>{{ $t('chen-ying-yu-fu-wu-chu') }}</p>
         <div class="flex gap-14 flex-wrap justify-center">
-          <p>{{ $t('hai-xing-qu-ting-hai-da-dao-88-hao-feng-li-da-lou-3-lou') }}</p>
-          <p>(02) 878-9487</p>
-          <p>{{ $t('email') }}：meowoffice@linmeow.tw</p>
+          <p>
+            <UtilIcon name="IconGeo" class="inline-block w-4 mr-4"/>
+            {{ $t('hai-xing-qu-ting-hai-da-dao-88-hao-feng-li-da-lou-3-lou') }}
+          </p>
+          <p>
+            <UtilIcon name="IconTelephone" class="inline-block w-4 mr-4"/>
+            <a href="tel:02878-9487">(02) 878-9487</a>
+          </p>
+          <a href="mailto: meowoffice@linmeow.tw" class="underline">
+            {{ $t('email') }}：meowoffice@linmeow.tw
+          </a>
         </div>
         <!-- service time -->
         <p>{{ $t('service-time') }}</p>
