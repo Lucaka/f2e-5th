@@ -6,7 +6,16 @@ module.exports = {
   theme: {
     colors: {
       primary: '#1D3260',
-      secondary: '#ECF5FC'
+      secondary: '#ECF5FC',
+      white: '#FFFFFF'
+    },
+    container: {
+      screens: {
+        sm: '640px',
+        md: '768px',
+        lg: '1024px',
+        xl: '1280px'
+      }
     },
     extend: {}
   },

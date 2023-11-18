@@ -6,14 +6,16 @@
 
     <div class="loader">
       <div class="info">
-        <p>陳英渝服務處</p>
+        <p>{{ $t('chen-ying-yu-fu-wu-chu') }}</p>
         <div class="flex gap-14 flex-wrap justify-center">
-          <p>海星區聽海大道88號鳳梨大樓3樓</p>
+          <p>{{ $t('hai-xing-qu-ting-hai-da-dao-88-hao-feng-li-da-lou-3-lou') }}</p>
           <p>(02) 878-9487</p>
-          <p>信箱：meowoffice@linmeow.tw</p>
+          <p>{{ $t('email') }}：meowoffice@linmeow.tw</p>
         </div>
-        <p>服務時間:週一至週五 9:00 - 18:00</p>
-        <p>版權聲明：© 2023 陳英渝版權所有</p>
+        <!-- service time -->
+        <p>{{ $t('service-time') }}</p>
+        <!-- copyright -->
+        <p>{{ $t('copyright') }}</p>
       </div>
     </div>
   </footer>

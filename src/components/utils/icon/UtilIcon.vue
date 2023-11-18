@@ -3,12 +3,14 @@ import IconFacebook from './iconList/IconFacebook.vue'
 import IconInstagram from './iconList/IconInstagram.vue'
 import IconYoutube from './iconList/IconYoutube.vue'
 import IconLine from './iconList/IconLine.vue'
+import IconHamburger from './iconList/IconHamburger.vue'
 
 const icons = {
   IconFacebook,
   IconInstagram,
   IconYoutube,
-  IconLine
+  IconLine,
+  IconHamburger
 }
 
 type IconType = keyof typeof icons

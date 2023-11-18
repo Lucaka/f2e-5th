@@ -5,9 +5,9 @@ import FooterView from '@/Layouts/Home/components/FooterView.vue'
 </script>
 
 <template>
-  <div class="flex flex-col h-full">
+  <div class="flex flex-col min-h-full">
     <NavbarView />
-    <main class="h-full ">
+    <main class="h-full">
       <RouterView />
     </main>
     <FooterView />

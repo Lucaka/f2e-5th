@@ -1,4 +1,8 @@
 @layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
   html,
   body,
   #app {
