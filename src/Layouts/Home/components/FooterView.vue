@@ -1,6 +1,6 @@
 <template>
   <footer>
-    <div class="element">
+    <div class="element hidden lg:block">
       <img src="@/assets/img/Tail.png" />
     </div>
 
@@ -84,6 +84,6 @@ img {
 
 .info {
   @apply flex flex-col gap-5;
-  @apply text-secondary text-center relative top-16 
+  @apply text-secondary text-center relative top-16 bg-primary;
 }
 </style>

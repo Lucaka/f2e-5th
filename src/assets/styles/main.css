@@ -1,5 +1,6 @@
 /* Plugins */
 @import '@/plugin/tailwind/index';
+@import '@/plugin/carousel/index';
 
 /* Base */
 @import './base';

@@ -1,0 +1,9 @@
+@import 'vue3-carousel/dist/carousel.css';
+
+.carousel__pagination {
+  @apply gap-4;
+}
+
+.carousel__pagination-button::after {
+  @apply w-2 h-2 rounded-full;
+}
