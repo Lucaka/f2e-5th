@@ -128,12 +128,12 @@ header {
   @apply gap-8 flex flex-col items-center;
 }
 
-.menu-items li {
-  @apply py-2 px-4;
+.menu-items li a {
+  @apply py-2 px-4 inline-block;
 }
 
 .menu-items li:hover {
-  @apply py-2 px-4 outline-primary/60 outline-[1000px] outline;
+  @apply outline-primary/60 outline-[1000px] outline;
 }
 
 #menu:checked ~ .menu-item {
