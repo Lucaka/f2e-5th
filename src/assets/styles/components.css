@@ -1,7 +1,0 @@
-.btn {
-  @apply text-white bg-primary py-2 px-10 mx-auto rounded-lg;
-}
-
-.section-rounded {
-  @apply rounded-tr-[100px] rounded-bl-[50px] ;
-}
