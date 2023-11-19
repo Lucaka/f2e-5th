@@ -15,12 +15,12 @@ withDefaults(
 )
 </script>
 <template>
-  <div class="flex justify-center flex-col p-4 text-primary">
+  <div class="flex flex-col p-4 text-primary">
     <p class="mb-2 px-4" >{{ item.date }}</p>
     <img class="mb-4" :src="item.img" alt="event" />
     <p class="text-xl mb-4 px-4">{{ item.title }}</p>
     <p class="px-4 mb-14">{{ item.content }}</p>
-    <a :href="item.link" class="btn">
+    <a :href="item.link" class="btn mt-auto">
       {{ $t('read-more') }}
     </a>
   </div>

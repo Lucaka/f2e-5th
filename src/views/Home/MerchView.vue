@@ -18,16 +18,18 @@ const productItems = computed(() => [product2, product1, product3])
       <LogoTitle :title="$t('yu-yu-xiao-wu')" :background="null" />
     </div>
 
-    <carousel class="lg:hidden p-4">
-      <slide v-for="(item, index) in productItems" :key="index">
-        <img :src="item" alt="product" />
-      </slide>
+    <div class="lg:hidden p-4">
+      <carousel>
+        <slide v-for="(item, index) in productItems" :key="index">
+          <img :src="item" alt="product" />
+        </slide>
 
-      <template #addons>
-        <navigation />
-        <pagination />
-      </template>
-    </carousel>
+        <template #addons>
+          <navigation />
+          <pagination />
+        </template>
+      </carousel>
+    </div>
 
     <div class="lg:bg-secondary section-rounded">
       <div class="container mx-auto py-8 relative">
@@ -44,7 +46,11 @@ const productItems = computed(() => [product2, product1, product3])
           </p>
 
           <div>
-            <a class="btn whitespace-nowrap w-auto leading-[2] inline-block" href="https://shopee.tw/chenyingyu.tw" target="_blank">
+            <a
+              class="btn whitespace-nowrap w-auto leading-[2] inline-block"
+              href="https://shopee.tw/chenyingyu.tw"
+              target="_blank"
+            >
               {{ $t('qian-wang-xia-pi-mai-chang') }}
             </a>
           </div>
