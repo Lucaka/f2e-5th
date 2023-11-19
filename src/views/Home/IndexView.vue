@@ -84,7 +84,7 @@ const policyIssues = computed(() => [
 
   <MerchView />
 
-  <!-- <PublicServices /> -->
+  <PublicServices />
 </template>
 
 <style scoped>
