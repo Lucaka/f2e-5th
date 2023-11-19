@@ -16,8 +16,8 @@ import LogoTitle from '@/views/Home/components/LogoTitle.vue'
       </p>
 
       <form>
-        <div class="section-rounded border-4 border-white lg:max-w-[850px] mx-auto p-2">
-          <p class="form-group">民眾服務表單</p>
+        <div class="section-rounded lg:border-4 border-white lg:max-w-[850px] mx-auto p-4">
+          <p class="mb-6">民眾服務表單</p>
           <div class="flex flex-col text-left lg:px-32">
             <div class="form-group">
               <label for="name">姓名</label>
@@ -31,8 +31,8 @@ import LogoTitle from '@/views/Home/components/LogoTitle.vue'
               <label for="email">電子信箱</label>
               <input type="text" id="email" name="email" required />
             </div>
-            <div class="form-group">
-              <label for="message" class="!block">留下您的訊息</label>
+            <div class="form-group !flex-col">
+              <label for="message">留下您的訊息</label>
               <textarea id="message" name="message" rows="5" class="w-full" required></textarea>
             </div>
           </div>
@@ -46,7 +46,7 @@ import LogoTitle from '@/views/Home/components/LogoTitle.vue'
 
 <style scoped>
 .form-group {
-  @apply mb-6;
+  @apply mb-6 flex flex-col lg:flex-row justify-between ;
 }
 
 .form-group label {
